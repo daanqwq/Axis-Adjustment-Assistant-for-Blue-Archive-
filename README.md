@@ -10,6 +10,7 @@
 - 支持未完成项处理（如单独费用输入）
 
 ### 使用方式
+下载已编译文件:https://github.com/daanqwq/Axis-Adjustment-Assistant-for-BlueArchive/releases
 1. 按提示交替输入费用/操作
 2. 输入'--'插入分隔线
 3. 直接回车结束输入
