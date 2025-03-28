@@ -36,7 +36,7 @@ try:
         prompt = "请输入费用" if next_num % 2 == 1 else "请输入操作"
         
         # 获取输入
-        user_input = input(f"{prompt}（直接回车结束输入）: ").strip()
+        user_input = input(f"{prompt}（直接回车结束输入，输入--以生成分割线）: ").strip()
         
         # 结束输入条件
         if not user_input:
@@ -53,7 +53,7 @@ except KeyboardInterrupt:
 
 # 生成最终输出
 os.system('cls')
-print("最终结果：\n")
+print("最终结果(已复制)：\n")
 output_lines = []
 i = 0
 while i < len(inputs):
